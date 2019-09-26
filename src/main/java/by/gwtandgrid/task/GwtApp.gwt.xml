@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="gwtApp">
+
+    <inherits name='com.google.gwt.user.User'/>
+
+    <inherits name='com.google.gwt.user.theme.clean.Clean'/>
+
+    <entry-point class='by.gwtandgrid.task.client.GwtApp'/>
+
+    <source path='client'/>
+    <source path='util'/>
+
+    <add-linker name="xsiframe"/>
+
+</module>
